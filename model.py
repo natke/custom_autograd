@@ -1,5 +1,3 @@
-from tracemalloc import get_traced_memory
-from unittest import result
 import torch
 
 class MyLogExp(torch.autograd.Function):
